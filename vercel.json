@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "name": "wild-heaven-beach-villa",
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/about", "destination": "/about.html" },
+    { "source": "/contact", "destination": "/contact.html" },
+    { "source": "/book", "destination": "/book.html" },
+    { "source": "/reviews", "destination": "/reviews.html" },
+    { "source": "/signup", "destination": "/signup.html" },
+    { "source": "/signin", "destination": "/signin.html" },
+    { "source": "/api/(.*)", "destination": "/api/$1" }
+  ]
+}
